@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=PT+Serif&display=swap');
-
 html {
   box-sizing: border-box;
-  font-family: 'PT Serif', sans-serif;
+  font-family: "PT Sans-Serif", sans-serif;
   line-height: 1.5;
   background-color: #fff;
 }
@@ -24,14 +22,14 @@ img {
 }
 
 header {
- display:flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   color: #000;
 }
 
 h1, h2, a {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
 }
 
 h1 {
@@ -62,4 +60,9 @@ nav a:visited {
   color: #0074d9;
   text-decoration: none;
   padding: .6rem;
+}
+
+section a:hover {
+  background-color: #000;
+  color: #fff;
 }
