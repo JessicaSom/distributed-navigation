@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=PT+Serif&display=swap');
+
+html {
+  box-sizing: border-box;
+  font-family: 'PT Serif', sans-serif;
+  line-height: 1.5;
+  background-color: #fff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 1.5rem;
+}
+
+img {
+  width: 2rem;
+  margin: .5rem;
+}
+
+header {
+ display:flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000;
+}
+
+h1, h2, a {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+header .logo {
+  width: 2.25em;
+  order: -1;
+  margin-right: .5rem;
+}
+
+header p {
+  margin: 0 auto;
+  color: #000;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 1.125rem;
+  display: flex;
+}
+
+nav a,
+nav a:visited {
+  color: #0074d9;
+  text-decoration: none;
+  padding: .6rem;
+}
