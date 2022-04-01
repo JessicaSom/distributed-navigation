@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "PT Sans-Serif", sans-serif;
+  font-family: "Fira Sans", sans-serif;
   line-height: 1.5;
   background-color: #fff;
 }
@@ -16,7 +16,7 @@ body {
   padding: 1.5rem;
 }
 
-img {
+header img {
   width: 2rem;
   margin: .5rem;
 }
@@ -26,13 +26,14 @@ header {
   justify-content: space-between;
   align-items: center;
   color: #000;
+  background-color: #e2e2e2;
 }
 
 h1, h2, a {
   font-family: "Fira Sans", sans-serif;
 }
 
-h1 {
+header h1 {
   margin: 0;
 }
 
@@ -62,7 +63,9 @@ nav a:visited {
   padding: .6rem;
 }
 
-section a:hover {
+nav a:hover,
+nav a:focus {
   background-color: #000;
   color: #fff;
+  border-radius: 8px;
 }
